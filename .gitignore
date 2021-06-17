@@ -1,0 +1,11 @@
+# Dependency
+node_modules/
+
+# Testing
+coverage/
+
+# Dist
+dist/
+
+# Others
+.idea/

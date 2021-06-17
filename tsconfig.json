@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "strict": true,
+    "strictNullChecks": false,
+    "declaration": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "lib": [
+      "dom",
+      "es6",
+      "es7",
+      "es2017"
+    ]
+  },
+  "include": [
+    "src"
+  ]
+}

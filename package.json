@@ -1,0 +1,41 @@
+{
+  "name": "@kozakl/js-data-fns",
+  "version": "0.1.0",
+  "sideEffects": false,
+  "author": {
+    "name": "Luke Kozak",
+    "email": "kozakluke@gmail.com",
+    "url": "https://github.com/kozakl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kozakl/js-data-fns"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "publish-dist": "npm run build && cp package.json ./dist && npm publish ./dist --access=public",
+    "test": "jest --coverage",
+    "test:watch": "npm run test -- --watchAll"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/src/.*.test)\\.tsx?$",
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "tsx"
+    ]
+  },
+  "dependencies": {
+    "date-fns": "2.11.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.2",
+    "@types/node": "^10.12.0",
+    "jest": "^20.0.4",
+    "ts-jest": "^22.4.2",
+    "typescript": "^3.6.4"
+  }
+}
