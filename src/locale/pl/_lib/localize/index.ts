@@ -98,7 +98,7 @@ var dayValues = {
 var dayFormattingValues = {
   narrow: ['n', 'p', 'w', 'ś', 'c', 'p', 's'],
   short: ['nie', 'pon', 'wto', 'śro', 'czw', 'pią', 'sob'],
-  abbreviated: ['niedz.', 'pon.', 'wt.', 'śr.', 'czw.', 'pt.', 'sob.'],
+  abbreviated: ['Ni', 'Pn', 'Wt', 'Śr', 'Cz', 'Pt', 'So'],
   wide: [
     'niedziela',
     'poniedziałek',
