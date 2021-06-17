@@ -1,5 +1,5 @@
 // @ts-ignore
-import isSameUTCWeek from "date-fns/locale/_lib/isSameUTCWeek";
+import isSameUTCWeek from "date-fns/_lib/isSameUTCWeek";
 
 var adjectivesLastWeek = {
   masculine: 'ostatni',
