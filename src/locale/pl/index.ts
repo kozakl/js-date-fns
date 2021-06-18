@@ -15,7 +15,7 @@ import match from './_lib/match/index'
  * @author Mikolaj Grzyb [@mikolajgrzyb]{@link https://github.com/mikolajgrzyb}
  * @author Mateusz Tokarski [@mutisz]{@link https://github.com/mutisz}
  */
-var locale = {
+var locale:any = {
   code: 'pl',
   formatDistance: formatDistance,
   formatLong: formatLong,
