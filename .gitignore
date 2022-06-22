@@ -9,3 +9,4 @@ dist/
 
 # Others
 .idea/
+.DS_Store
